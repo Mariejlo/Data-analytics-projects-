@@ -25,7 +25,7 @@
 This project aims to predict hospital readmissions using a dataset that includes various estimates related to hospital performance. The objective is to develop a machine learning model that can accurately predict the likelihood of patient readmissions, helping healthcare providers improve patient outcomes and reduce costs.
 
 ## Dataset Description
-- **Source**: [https://www.kaggle.com/datasets/thedevastator/us-healthcare-readmissions-and-mortality]
+- **Source**: [Kaggle] (https://www.kaggle.com/datasets/thedevastator/us-healthcare-readmissions-and-mortality)
 - **Number of Records**: [64764]
 - **Features**:
   - **Denominator**: Total number of patients
@@ -92,9 +92,11 @@ The project successfully developed a machine-learning model that accurately pred
 - Deploy the model in a real-world healthcare setting.
 
 ## Examples and Use-Cases
-1. **Healthcare Providers**: Use the model to identify patients at high risk of readmission and implement targeted interventions.
-2. **Policy Makers**: Allocate resources more effectively by understanding readmission trends.
-3. **Researchers**: Explore the dataset to find new insights and improve healthcare outcomes.
+Example 1. **Healthcare Providers**: Use the model to identify patients at high risk of readmission and implement targeted interventions.
+  Input: Patient data including Denominator, Lower Estimate, and Higher Estimate.
+  Output: Probability of readmission.
+Example 2. **Policy Makers**: Allocate resources more effectively by using the model to predict readmission rates and understanding readmission trends.
+Example 3. **Researchers**: Explore the dataset to find new insights and improve healthcare outcomes.
 
 ## Installation
 
@@ -108,6 +110,7 @@ The project successfully developed a machine-learning model that accurately pred
    
 ```bash
 git clone https://github.com/Mariejlo/Data-analytics-projects-.git
+ ```
 2. Navigate to the project directory:
     ```sh
     cd Data-analytics-projects-
@@ -116,7 +119,6 @@ git clone https://github.com/Mariejlo/Data-analytics-projects-.git
     ```sh
     pip install -r requirements.txt
     ```
-
 ## Usage
 
 ### Example Command
